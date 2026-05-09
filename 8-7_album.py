@@ -12,8 +12,8 @@ artist = {
     'Kendrick Lamar': 'GNX'
 }
 
-for artist_name, album_title in artist.items():
-    album_made = make_album(artist_name, album_title)
-    if artist_name == 'The Beatles':
-        album_made = make_album(artist_name, album_title, num_of_songs=14)
+for artist_name2, album_title2 in artist.items():
+    album_made = make_album(artist_name2, album_title2)
+    if artist_name2 == 'The Beatles':
+        album_made = make_album(artist_name2, album_title2, num_of_songs=14)
     print(album_made)

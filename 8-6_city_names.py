@@ -9,5 +9,5 @@ country_pairs = {
     'Cairo': 'Egypt'
 }
 
-for city, country in country_pairs.items():
-    print(city_country(city, country))
+for city2, country2 in country_pairs.items():
+    print(city_country(city2, country2))
