@@ -1,8 +1,8 @@
-def make_album(album, artist_name, album_title):
+def make_album(data, artist_name, album_title):
     """Return an artist album as a dictionary."""
-    album['artist'].append(artist_name)
-    album['album'].append(album_title)
-    return album
+    data['artist'].append(artist_name)
+    data['album'].append(album_title)
+    return data
 
 
 album = {'artist': [], 'album': []}
