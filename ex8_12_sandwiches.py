@@ -2,9 +2,9 @@
 
 
 def sandwich_fills(count, *fills):
-    """this function accepts a list of items a person wants on a sandwhich"""
-    print(f'\nTest {count}:')
-    print('Sandwich fillings ordered:')
+    """this function accepts a list of items a person wants on a sandwich"""
+    print(f'\nTest {count}')
+    print('Sandwhich fillings ordered:')
     for fill in fills:
         print(f' - {fill}')
 
