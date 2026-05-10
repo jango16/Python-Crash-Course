@@ -1,3 +1,6 @@
+"""A program that collects and stores favorite artists and their albums."""
+
+
 def make_album(data, artist_name, album_title):
     """Return an artist album as a dictionary."""
     data['artist'].append(artist_name)
